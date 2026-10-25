@@ -1,0 +1,16 @@
+{
+  "name": "splat-turf",
+  "version": "1.0.0",
+  "description": "Real-time multiplayer paint-the-board party game. Join with a room code, no login needed.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/bots.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
